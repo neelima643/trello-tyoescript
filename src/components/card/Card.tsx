@@ -108,7 +108,7 @@ const Cards: React.FC = () => {
             <div
               className="card"
               onDragStart={(event) => {
-                onDragHandleStart(event, [{ item, pos }], "todo");
+                onDragHandleStart(event, [{ item, pos }], "doing");
               }}
               draggable="true"
             >
@@ -131,7 +131,7 @@ const Cards: React.FC = () => {
             <div
               className="card"
               onDragStart={(event) => {
-                onDragHandleStart(event, [{ item, pos }], "todo");
+                onDragHandleStart(event, [{ item, pos }], "done");
               }}
               draggable="true"
               //onDragEnd={drop}

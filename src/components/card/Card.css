@@ -1,0 +1,76 @@
+.rightdiv {
+    display: flex;
+    flex-direction:row ;
+    height: 100vh;
+    align-items: flex-start;
+}
+
+
+.todo {
+    background-color: #dfdfdf;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 100px 10px 10px 20px;
+    padding: 0px 5px 5px 5px;
+    width: 20%;
+   
+}
+
+h4 {
+    margin-left: 15px;
+}
+.doing {
+    background-color: #dfdfdf;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 100px 10px 10px 5px;
+    padding: 0px 5px 5px 5px;
+    width: 20%;
+   
+    
+}
+
+.done {
+    background-color: #dfdfdf;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 100px 10px 10px 5px;
+    padding: 0px 5px 5px 5px;
+    width: 20%;
+}
+
+.card {
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.current {
+    background-color: #e9f0f1;
+}
+
+.todoarea {
+    
+    padding: 10px 0px;
+}
+
+.doingarea {
+   
+    padding: 10px 0px;
+}
+
+.taskbtn {
+    margin: 10px 0px 10px 20px;
+    width: 85%;
+    text-align: left;
+    padding: 10px ;
+    border: none;
+    background-color: transparent;
+}
+
+.taskbtn:hover {
+    background-color: rgb(194, 189, 189);
+}
+
+.addicon {
+    margin-right: 10px;
+}
